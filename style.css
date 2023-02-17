@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+.main {
+    background-image: url(./img/backone.jpg);
+    background-position: center;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__block {
+    width: 500px;
+    margin-top: 60px;
+}
+.main__header {
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+.main__text {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.main__button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    color: black;
+    background: white;
+    border-radius: 30px;
+    width: 234.06px;
+    height: 48.6px;
+}
+/* второй по счёту блок */
+.present {
+    background-image: url(./img/beige-background.jpg);
+    background-position: center;
+    /* height: 1024px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: url(./img/ru-vigbo.mp4); */
+    padding-bottom: 100px;
+}
+.present__block {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.present__header {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+.present__text {
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+/* 3 блок по счёту */
+.site {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7B68EE;
+    padding-bottom: 100px;
+}
+.site__block {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+}
+.site__block_left {
+    width: 50%;
+}
+.site__block_right {
+    width: 50%;
+}
+.site__header {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+.site__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.site__text_plus {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.site__image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 20px;
+}
+.site__photo {
+    width: 700px;
+}
+/* 4 блок по счёту */
+.segment {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 100px;
+}
+.segment__left {
+    flex-direction: column;
+    display: flex;
+}
+.segment__image {
+}
